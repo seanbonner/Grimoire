@@ -36,8 +36,12 @@ scrolls/sources/*.md
 scrolls/reports/*.md
 scrolls/synthesis/*.md
 
-# Don't ignore the tracked template
+# Vault landing page — personal dashboard, maintained by inscribe/bind
+Home.md
+
+# Don't ignore the tracked templates
 !scrolls/index.example.md
+!Home.example.md
 
 # Don't ignore .gitkeep sentinels
 !**/.gitkeep

@@ -104,6 +104,8 @@ Inscribe does NOT:
 
 Update `scrolls/index.md` with new source entries.
 
+Update `Home.md` — the vault landing page. Prepend each new scroll-source to the **Recently inscribed** section (newest at top); keep the list capped at 8 entries. Format: `- [[source-slug]] — <one-line, ~100 char description>`. Also bump the `updated:` date in the frontmatter. If `Home.md` doesn't exist, copy `Home.example.md` to `Home.md` and populate.
+
 Append one row per dispatched item to `scrolls/provenance.md`:
 
 ```

@@ -57,6 +57,18 @@ Explicitly log candidates considered and rejected, with one-line reasons. This p
 ### 7. Update `scrolls/index.md`
 Add any new pages. Update the `updated:` date in frontmatter.
 
+### 7a. Update `Home.md` — the vault landing page
+
+`Home.md` is the Obsidian front door and should reflect the unified state after this bind. Refresh these sections:
+
+- **Last bind:** set to today's date + a one-sentence summary (counts + top promotions).
+- **Active scrolls clusters:** rewrite this list (5–8 items) as the concept/entity pages most-updated this cycle, with a short note on what changed.
+- **Cross-layer clusters:** add/update entries for any scrolls page that now meets a dense shelves neighborhood — format `[[scrolls-page]] ↔ <neighborhood description> (N titles)`. Remove entries that no longer apply.
+- **Open synthesis candidates:** copy this bind's synthesis-candidates section (trimmed to the rationale's first sentence + related-pages line).
+- **Open work:** refresh with outstanding re-clips, illuminate pending, catalog-triage items, etc. Carry forward anything still open; drop anything resolved.
+
+Leave the **Recently inscribed** list alone — that's inscribe's responsibility. Bump the `updated:` date in frontmatter. If `Home.md` doesn't exist, copy `Home.example.md` to `Home.md` and populate.
+
 ### 8. Append a bind entry to `scrolls/log.md`
 Canonical header format:
 
