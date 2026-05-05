@@ -102,9 +102,15 @@ Inscribe does NOT:
 
 ## After a run
 
-Update `scrolls/index.md` with new source entries.
+Update `scrolls/index.md`:
+- Add each new source entry to the appropriate category section.
+- **Prepend** each new source to the **Recently added & updated** section at the top (newest first). Format: `- YYYY-MM-DD · source · [[page-slug]] — <one-line summary>`. Keep the section capped at ~12 entries — drop the oldest as new ones come in.
+- Bump the `updated:` date in frontmatter.
 
-Update `Home.md` — the vault landing page. Prepend each new scroll-source to the **Recently inscribed** section (newest at top); keep the list capped at 8 entries. Format: `- [[source-slug]] — <one-line, ~100 char description>`. Also bump the `updated:` date in the frontmatter. If `Home.md` doesn't exist, copy `Home.example.md` to `Home.md` and populate.
+Update `Home.md` — the vault landing page:
+- Prepend each new scroll-source to the **Recently inscribed sources** sub-section under "What's new this cycle" (newest at top). Keep capped at 8 entries. Format: `- [[source-slug]] — <one-line, ~100 char description>`.
+- Bump the `updated:` date in frontmatter.
+- If `Home.md` doesn't exist, copy `Home.example.md` to `Home.md` and populate.
 
 Append one row per dispatched item to `scrolls/provenance.md`:
 

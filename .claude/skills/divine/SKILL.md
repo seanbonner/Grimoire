@@ -70,6 +70,16 @@ Append an entry to `scrolls/log.md` using the canonical header format:
 
 Include: the title, the drawn-from list, a one-line summary.
 
+### 4. Update `scrolls/index.md`
+
+Add the new synthesis page to the **Synthesis** section.
+
+**Prepend** the synthesis to the **Recently added & updated** section at the top (newest first). Format: `- YYYY-MM-DD · synthesis · [[page-slug]] — <one-line summary>`. Keep the section capped at ~12 entries — drop the oldest as new ones come in. Update the `updated:` date in frontmatter.
+
+### 5. Update `Home.md`
+
+Set the **Last divine** line under "What's new this cycle" to today's date + the new synthesis title (wikilinked) + a brief parenthetical (~1 sentence) on the argument shape and word count. Bump the `updated:` date in frontmatter. Leave all other Home sections alone.
+
 ## Boundary
 
 Divine does NOT:

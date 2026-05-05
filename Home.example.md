@@ -24,15 +24,17 @@ A book of instructions for summoning and directing entities. Two layers, one inb
 
 Material arrives in `desk/` → `inscribe` routes it → `bind` reconciles periodically. Cross-layer links go both ways: scrolls concepts cite shelves books; shelves clusters give concepts their library footprint.
 
-## Latest activity
+## What's new this cycle
 
-**Last bind:** _(bind populates)_
+**Last bind:** _(bind populates — date + one-sentence summary)_
 
-**Recently inscribed** (last 8):
+**Last divine:** _(divine populates — date + wikilinked title + brief one-sentence parenthetical)_
 
-_(inscribe populates — newest at top)_
+**Recently inscribed sources** (last 8, newest first):
 
-## Active scrolls clusters
+_(inscribe populates — newest at top, capped at 8)_
+
+**Concepts and entities updated this cycle:**
 
 _(bind populates — 5–8 concept/entity pages seeing the most recent updates)_
 
